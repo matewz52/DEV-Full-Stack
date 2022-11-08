@@ -1,0 +1,33 @@
+Algoritmo "Mateus Felipe Alves Martins"
+
+Var
+   N : inteiro
+   ContadorUm: inteiro
+   ContadorDois: inteiro
+   ContadorTres: inteiro
+   Primo: inteiro
+
+Inicio
+
+     Escreva("Digite um valor: ")
+     Leia(N)
+     Para ContadorUm de 1 ate n faca
+         Primo <-0
+         Para ContadorDois de 1 ate ContadorUm faca
+            Se(ContadorUm mod ContadorDois=0) entao
+                          Primo <-Primo+1
+
+            FimSe
+         FimPara
+         
+         Se (Primo=2) entao
+          Escreval("O número:", contadorUm, " é primo")
+          ContadorTres <-ContadorTres+ContadorUm
+          
+         FimSe
+
+     FimPara
+     
+            Escreva("A soma de todos os numeros primos menores iguais a ", (N), " é: ", ContadorTres)
+     
+FimAlgoritmo
